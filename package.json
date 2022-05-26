@@ -1,7 +1,6 @@
 {
   "name": "wp-tut",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "lodash": "^4.17.21"
@@ -22,10 +21,19 @@
   },
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --mode=development",
+    "dev": "webpack-dev-server --mode=development --public-url /wp-tut/",
     "prod": "webpack --mode=production"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TetianaDoroshko/wp-tut.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TetianaDoroshko/wp-tut/issues"
+  },
+  "homepage": "https://github.com/TetianaDoroshko/wp-tut#readme",
+  "description": ""
 }
