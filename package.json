@@ -21,8 +21,8 @@
   },
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server --mode=development --public-url /wp-tut/",
-    "prod": "webpack --mode=production"
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production --public-url /wp-tut/"
   },
   "keywords": [],
   "author": "",
